@@ -86,6 +86,7 @@ nav{
     color: rgb(196, 167, 122);
     font-size: 20px;
     text-align: center;
+    padding: 10px;
 }
 .maintag{
     color: #81469e;
@@ -94,16 +95,15 @@ nav{
 }
 .pic1{
  
-  width: 45%;
+  width: 23%;
   padding: 10px;  
-  height: 500px;
-  float: left;
+  height: 400px;
+  display: inline-block;
 }
 .pic3{
-    margin-left: 500px;
-    margin-right: 500px;
     
-    float: left;
+    
+    display: inline-block;
 
 }
   
@@ -113,10 +113,10 @@ nav{
 
 
 .pic2{
-    float: left;
-    width: 49%;
+    display: inline-block;
+    width: 23%;
     padding: 10px;  
-    height: 500px;}
+    height: 400px;}
 .lear{
     font-size: 30px;
     color: rgb(235, 230, 136);
