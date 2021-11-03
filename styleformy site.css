@@ -34,9 +34,12 @@ nav a{
     text-transform: uppercase;
     padding: 0 40px;
     text-decoration: none;
-    text-decoration-color: red;
+   
     font-size: 20px;
     text-align: center;
+}
+nav a:hover{
+    color: darkcyan;
 }
 fieldset{
     height: 40px;
@@ -82,7 +85,7 @@ nav{
 .pic{
     display: inline-block;
     width: 49% ;
-    height: 500px;
+    height: 400px;
     color: rgb(196, 167, 122);
     font-size: 20px;
     text-align: center;
@@ -176,6 +179,7 @@ div, .qw{
 .qw{
     color:black;
     font-size: 20px;
+    list-style-position: outside;
     
 }
 footer{
