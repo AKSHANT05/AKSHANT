@@ -2,8 +2,15 @@ body {
   background-color: rgb(27, 18, 24);
   margin: 0;
   padding: 0;
+  
 }
-
+html, body{
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+@media all and (min-width: 1040px){
 .header {
   text-align: center;
   color: rgb(30, 6, 186);
@@ -11,7 +18,53 @@ body {
   font-style: inherit;
   font-weight: bolder;
   padding: 115px;
-}
+}}
+@media all and (max-width: 500px) and (min-width: 400px){
+  .header {
+    text-align: center;
+    color: rgb(30, 6, 186);
+    font-size: 80px;
+    font-style: inherit;
+    font-weight: bolder;
+    min-width
+    : 400px;
+    max-width: 1035px;
+    padding: 20px;
+    
+
+   width: fit-content;
+  }}
+  @media all and (max-width: 1040px) and (min-width: 500px){
+    .header {
+      text-align: center;
+      color: rgb(30, 6, 186);
+      font-size: 90px;
+      font-style: inherit;
+      font-weight: bolder;
+      min-width
+      : 400px;
+      max-width: 1035px;
+      padding: 20px;
+      
+  
+     width: fit-content;
+    }}
+  @media all and (max-width: 400px) and (min-width: 300px){
+    .header {
+      text-align: center;
+      color: rgb(30, 6, 186);
+      font-size: 70px;
+      font-style: inherit;
+      font-weight: bolder;
+      min-width
+      : 300px;
+      max-width: 1035px;
+      padding: 20px;
+      
+  
+     width: fit-content;
+    }}
+  
 
 .mepic {
   margin-left: auto;
@@ -27,6 +80,7 @@ fieldset,
   display: flex;
   justify-content: center;
   background-color: rgb(27, 18, 24);
+  width: 100%;
 }}
 @media all and (min-width: 1040px) {
 nav a {
@@ -36,6 +90,7 @@ nav a {
 
   font-size: 20px;
   text-align: center;
+  width: 100%;
 }}
 @media all and (min-width: 1040px) {
 nav a:hover {
@@ -44,6 +99,7 @@ nav a:hover {
 @media all and (min-width: 1040px) {
 fieldset {
   height: 40px;
+  width: fit-content;
 }}
 @media all and (max-width: 1039px) and (min-width: 300px) {
  .set {
@@ -52,7 +108,7 @@ fieldset {
   
   text-decoration: none;
   padding: 10px 0px;
-  width: 900px;
+  width: fit-content;
   height: auto;
   background-color: rgb(27, 18, 24);
   
@@ -60,14 +116,15 @@ fieldset {
 @media all and (max-width: 1039px) and (min-width: 300px)
 {nav a{text-transform: uppercase;
   padding: 10px ;
+  width: fit-content;
   
   text-decoration: none;
   display: block;
 
 
   font-size: 20px;
-  text-align: center;}
-  
+  text-align: left;}
+ 
 }
 
 
@@ -79,11 +136,7 @@ fieldset {
   font-weight: 900;
   
 }
-@media screen and(max-width: 600px) and (orientation: landscape){
-    .me{
-        text-align: center;
-    }
-}
+
     
 
 .myname {
